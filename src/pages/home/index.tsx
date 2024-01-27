@@ -1,3 +1,4 @@
+import AboutUsSection from './AboutUsSection';
 import HeroSection from './HeroSection';
 
 const Home = () => {
@@ -5,6 +6,7 @@ const Home = () => {
   return (
     <div>
         <HeroSection />
+        <AboutUsSection />
     </div>
   );
 };
